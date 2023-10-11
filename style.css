@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid red; */
+}
+:root{
+    --buttonclr: #219c90;
+    --popins:font-family: 'Poppins', sans-serif;
+    --headtext:#78797b;
+    --textblk:#454545;
+
+}
+.navbar-brand{
+    color: var(--headtext) !important;
+    font-family: var(--popins) !important;
+    font-size: 24px !important;
+}
+.nav-Item .btn{
+    background-color: var(--buttonclr);
+    color: #fff;
+}
+.nav-Item:hover .btn {
+    background-color: #fff;
+    color: black;
+}
+.headContent h2{
+    font-family: var(--popins) !important;
+    color: var(--textblk);
+}
+.headContent p{
+    font-family: var(--popins);
+    color: var(--textblk);
+}
+.courseInfo h6{
+    font-family: var(--popins) !important;
+    color: var(--buttonclr);
+    font-size: 18px !important;
+}
+.studioContent{
+    text-align: left;
+    font-family: var(--popins);
+}
+.studioContent h3{
+    color: var(--textblk);
+}
+.pricingPlan {
+    border-bottom: 1px solid var(--textblk);
+    
+    
+}
+.clientContainer img{
+    /* position: relative; */
+    /* width: 25%; */
+    margin-top: -80px;
+}
+.clientContainer p{
+    font-size: 14px;
+}
+.socialIcons i
+:hover {
+    color: var(--buttonclr);
+}
